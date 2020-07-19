@@ -5,3 +5,7 @@ Run frame_diff.py as python frame_diff.py to get the difference between two cons
 Run sketch.py to get a sketch of an input image. Along with that there are different methods/filters used like gaussian filter,grayscale,inverting etc.
 
 Run cartoon.py to get a cartooned image from an input image.It also contains code to different methods like upsampling & downsampling an image,median blur and adaptive thresholding. 
+
+Run contour_detection.py to detect the contours of the objects in the image.
+
+Run edge_detection.py to detect the edges of the objects in the image.
