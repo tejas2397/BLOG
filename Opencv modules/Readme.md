@@ -11,3 +11,5 @@ Run contour_detection.py to detect the contours of the objects in the image.
 Run edge_detection.py to detect the edges of the objects in the image.
 
 Run object_tracker.py as python3 track_camshift.py to track the desired object in the frame. First with the help of the cursor you have to draw a rectangle around the object that you want to track and then move the cursor from the screen. the object is now ready to be tracked. the code uses historgram normalization technique to track the region of interest. When a rectangle is drawn around the object the histogram of the pixel values is calculated and it is our regoin of interst that we need to keep track of during the session.
+
+Run optical_flow.py as python3 optical_flow.py to obtain the trajectory of the moving objects in the frame. The lines are drawn to depict the motion of the moving objects in the frame. It uses calcOpticalFlowPyrLK class in opencv to perform the task.
