@@ -1,1 +1,1 @@
-Script mask_image_data.py contains the code to scrape images of people wearing masks from google images. prerequisites to be installled are selenium & urllib. The scriptp can be tweaked to download images for other search terms as well.
+Script mask_image_scrape.py contains the code to scrape images of people wearing masks from google images. prerequisites to be installled are selenium & urllib. The scriptp can be tweaked to download images for other search terms as well.
